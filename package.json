@@ -1,7 +1,6 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.2.6",
-  "description": "A sample Node.js app using Express 4",
+  "name": "teamname-endpoint",
+  "description": "Backend app for teamname",
   "engines": {
     "node": "6.11.1"
   },
@@ -20,12 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/teamnamecsce3513/teamname-endpoint"
   },
   "keywords": [
     "node",
     "heroku",
     "express"
-  ],
-  "license": "MIT"
+  ]
 }
