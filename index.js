@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var mongojs = require('mongojs');
-var db = mongojs('mongodb://admin:unicorntoaster1@ds147034.mlab.com:47034/teamnamedb', ['products']);
+var db = mongojs('mongodb://admin:unicorntoaster1@ds147034.mlab.com:47034/teamnamedb');
 
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
